@@ -1,0 +1,3 @@
+import RaFormLayoutTranslationMessages from './RaFormLayoutTranslationMessages';
+declare const raWizardFormLanguageFrench: RaFormLayoutTranslationMessages;
+export default raWizardFormLanguageFrench;

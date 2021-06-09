@@ -1,0 +1,37 @@
+{
+    "name": "@react-admin/ra-preferences",
+    "version": "1.2.5",
+    "description": "User Preferences components",
+    "files": [
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "author": "Marmelab <contact@marmelab.com> (https://marmelab.com/)",
+    "main": "lib/src/index",
+    "module": "esm/src/index.js",
+    "types": "esm/src/index.d.ts",
+    "scripts": {
+        "build": "yarn run build-cjs && yarn run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015"
+    },
+    "devDependencies": {
+        "ra-data-fakerest": "^3.9.3",
+        "ra-i18n-polyglot": "^3.14.1",
+        "ra-language-english": "^3.14.1",
+        "ra-language-french": "^3.14.1",
+        "ra-test": "^3.14.1",
+        "react": "^16.13.1",
+        "react-admin": "^3.14.1",
+        "react-dom": "^16.13.1"
+    },
+    "peerDependencies": {
+        "lodash": "^4.17.20",
+        "inflection": "^1.12.0",
+        "react": "^16.13.1",
+        "react-admin": "^3.10.0",
+        "react-dom": "^16.13.1"
+    }
+}

@@ -1,0 +1,16 @@
+export declare const GET_LOCK = "RA/GET_LOCK";
+export declare const GET_LOCK_LOADING = "RA/GET_LOCK_LOADING";
+export declare const GET_LOCK_SUCCESS = "RA/GET_LOCK_SUCCESS";
+export declare const GET_LOCK_FAILURE = "RA/GET_LOCK_FAILURE";
+export declare const GET_LOCKS = "RA/GET_LOCKS";
+export declare const GET_LOCKS_LOADING = "RA/GET_LOCKS_LOADING";
+export declare const GET_LOCKS_SUCCESS = "RA/GET_LOCKS_SUCCESS";
+export declare const GET_LOCKS_FAILURE = "RA/GET_LOCKS_FAILURE";
+export declare const LOCK = "RA/LOCK";
+export declare const LOCK_LOADING = "RA/LOCK_LOADING";
+export declare const LOCK_SUCCESS = "RA/LOCK_SUCCESS";
+export declare const LOCK_FAILURE = "RA/LOCK_FAILURE";
+export declare const UNLOCK = "RA/UNLOCK";
+export declare const UNLOCK_LOADING = "RA/UNLOCK_LOADING";
+export declare const UNLOCK_SUCCESS = "RA/UNLOCK_SUCCESS";
+export declare const UNLOCK_FAILURE = "RA/UNLOCK_FAILURE";

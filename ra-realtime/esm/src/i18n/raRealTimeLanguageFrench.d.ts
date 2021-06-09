@@ -1,0 +1,3 @@
+import RaRealTimeTranslationMessages from './RaRealTimeTranslationMessages';
+declare const raRealTimeFrenchMessages: RaRealTimeTranslationMessages;
+export default raRealTimeFrenchMessages;

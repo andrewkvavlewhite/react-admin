@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ADD_CHILD_NODE = exports.ADD_ROOT_NODE = exports.MOVE_AS_NTH_SIBLING_OF = exports.MOVE_AS_NTH_CHILD_OF = exports.GET_CHILD_NODES = exports.GET_ROOT_NODES = exports.GET_TREE = void 0;
+exports.GET_TREE = 'getTree';
+exports.GET_ROOT_NODES = 'getRootNodes';
+exports.GET_CHILD_NODES = 'getChildNodes';
+exports.MOVE_AS_NTH_CHILD_OF = 'moveAsNthChildOf';
+exports.MOVE_AS_NTH_SIBLING_OF = 'moveAsNthSiblingOf';
+exports.ADD_ROOT_NODE = 'addRootNode';
+exports.ADD_CHILD_NODE = 'addChildNode';

@@ -1,0 +1,38 @@
+{
+    "name": "@react-admin/ra-audit-log",
+    "version": "2.0.2",
+    "description": "Provides a set of components to display event lists and audit logs.",
+    "files": [
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "author": "Marmelab <contact@marmelab.com> (https://marmelab.com/)",
+    "main": "lib/src/index",
+    "module": "esm/src/index.js",
+    "types": "esm/src/index.d.ts",
+    "scripts": {
+        "build": "yarn run build-cjs && yarn run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015"
+    },
+    "devDependencies": {
+        "@react-admin/ra-preferences": "^1.0.0",
+        "ra-data-fakerest": "^3.9.3",
+        "ra-i18n-polyglot": "^3.14.1",
+        "ra-language-english": "^3.14.1",
+        "ra-test": "^3.14.1",
+        "react": "^16.13.1",
+        "react-admin": "^3.14.1",
+        "react-dom": "^16.13.1"
+    },
+    "peerDependencies": {
+        "react": "^16.13.1",
+        "react-admin": "^3.14.1",
+        "react-dom": "^16.13.1"
+    },
+    "dependencies": {
+        "date-fns": "^2.21.1"
+    }
+}

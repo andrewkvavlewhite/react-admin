@@ -1,0 +1,40 @@
+{
+    "name": "@react-admin/ra-tree",
+    "version": "1.6.3",
+    "description": "Treeview component for react-admin",
+    "sideEffects": false,
+    "files": [
+        "LICENSE",
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "author": "Marmelab <contact@marmelab.com> (https://marmelab.com/)",
+    "main": "lib/src/index",
+    "module": "esm/src/index.js",
+    "types": "esm/src/index.d.ts",
+    "scripts": {
+        "build": "yarn run build-cjs && yarn run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+        "watch": "rimraf ./lib && tsc --watch"
+    },
+    "devDependencies": {
+        "ra-data-fakerest": "^3.9.3",
+        "ra-test": "^3.14.1",
+        "react-admin": "^3.14.1",
+        "cross-env": "^5.2.0",
+        "rimraf": "^2.6.2"
+    },
+    "peerDependencies": {
+        "lodash": "^4.17.20",
+        "react": "^16.13.1",
+        "react-admin": "^3.10.0",
+        "react-dom": "^16.13.1"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.1",
+        "rc-tree": "^3.1.5"
+    }
+}

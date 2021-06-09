@@ -1,0 +1,50 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    artists: [
+        { id: 1, name: 'Thom Yorke' },
+        { id: 2, name: 'James Murphy' },
+        { id: 3, name: 'Jonny Greenwood' },
+        { id: 4, name: 'Colin Greenwood' },
+    ],
+    bands: [
+        { id: 1, name: 'Radiohead' },
+        { id: 2, name: 'Coldplay' },
+        { id: 3, name: 'Foo Fighters' },
+        { id: 4, name: 'Green Day' },
+        { id: 5, name: 'The Strokes' },
+        { id: 6, name: 'Franz Ferdinand' },
+        { id: 7, name: 'LCD Soundsystem' },
+        { id: 8, name: 'Arcade Fire' },
+        { id: 9, name: 'Atoms For Peace' },
+    ],
+    members: [
+        { id: 1, band_id: 1, artist_id: 1 },
+        { id: 2, band_id: 1, artist_id: 3 },
+        { id: 3, band_id: 1, artist_id: 4 },
+        { id: 4, band_id: 7, artist_id: 2 },
+        { id: 5, band_id: 9, artist_id: 1 },
+    ],
+    performances: [
+        { id: 1, band_id: 1, venue_id: 1, date: '2012-06-23' },
+        { id: 2, band_id: 2, venue_id: 1, date: '2018-07-05' },
+        { id: 3, band_id: 3, venue_id: 1, date: '2019-03-30' },
+        { id: 4, band_id: 1, venue_id: 2, date: '2015-09-21' },
+        { id: 5, band_id: 3, venue_id: 3, date: '2019-07-28' },
+        { id: 6, band_id: 2, venue_id: 3, date: '2016-04-23' },
+        { id: 7, band_id: 1, venue_id: 3, date: '2018-01-17' },
+        { id: 8, band_id: 4, venue_id: 3, date: '2017-08-06' },
+        { id: 9, band_id: 7, venue_id: 1, date: '2018-04-28' },
+        { id: 10, band_id: 2, venue_id: 1, date: '2017-05-13' },
+        { id: 11, band_id: 2, venue_id: 5, date: '2013-08-12' },
+    ],
+    venues: [
+        { id: 1, name: 'Madison Square Garden', location: 'New York' },
+        { id: 2, name: 'Staples Center', location: 'Los Angeles' },
+        { id: 3, name: 'Yankee Stadium', location: 'New York' },
+        { id: 4, name: 'Bridgestone Arena', location: 'Nashville' },
+        { id: 5, name: 'Barclays Center', location: 'Brooklyn' },
+        { id: 6, name: 'Wrigley Field', location: 'Chicago' },
+        { id: 7, name: 'Fenway Park', location: 'Boston' },
+    ],
+};
